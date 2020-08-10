@@ -9,7 +9,7 @@ This section of code sets global options, loads the raw data and processes it
 such that steps by interval are aggregated to daily steps.
 
 ```{r setoptions,include=FALSE}
-knitr::opts_chunk$set(warning=FALSE,message=FALSE,fig.keep="all")
+knitr::opts_chunk$set(echo=TRUE,warning=FALSE,message=FALSE,fig.keep="all")
 ```
 
 ```{r readprocdata}
